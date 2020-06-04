@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<title>user login</title>
+</head>
+<body>
+	<div class="align">
+		<img class="logo" src="img/logo.svg">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form name="myform" action="#" class="myForm">
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Username" type="text" id="username" required>
+							<img src="img/user.svg">
+							<p class="errUserName"></p>
+
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password" id="password" required>
+							<img src="img/pass.svg">
+							<p class="errPass"></p>
+
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<button class="btnLogin">Login</button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Email" type="text" class="regemail">
+							<img src="img/mail.svg">
+							<p class="errEmail"></p>
+						</div>
+						<div class="input">
+							<input placeholder="Username" type="text" class="regusername">
+							<img src="img/user.svg">
+							<p class="errUserName"></p>
+
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password" class="regpassword">
+							<img src="img/pass.svg">
+							<p class="errPass"></p>
+
+						</div>
+					</div>
+					<button class="btnRegister">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
